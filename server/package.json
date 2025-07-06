@@ -4,7 +4,7 @@
   "description": "Backend API server for AI Health Assistant",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "npx nodemon index.js",
     "start": "node index.js",
     "init-db": "node scripts/initDatabase.js"
   },
